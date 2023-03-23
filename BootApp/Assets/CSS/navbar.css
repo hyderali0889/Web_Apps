@@ -1,0 +1,13 @@
+.nav1{
+    background-color: rgb(76, 76, 100);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

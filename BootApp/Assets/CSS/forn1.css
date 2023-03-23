@@ -1,0 +1,177 @@
+:root {
+	--sidebar-color: #17252a;
+	--border-color: #2b7a78;
+	--backDark-color: #3aafa9;
+	--backLight-color: #def2f1;
+	--text-color: #d1e8e2;
+}
+:-webkit-input-placeholder{
+    text-align:center;
+    color: black;
+}
+.get{
+    width: 50%;
+    border-radius: 10px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+  
+}
+.get1{
+    width: 76%;
+    height: 100px;
+    border-radius: 10px;
+  
+  
+  
+}
+.btn{
+    border-radius: 10px;
+}
+.wait{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+    
+}
+.write{
+    max-width: 100%;
+}
+.wait1{
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+ 
+}
+.ico{
+ margin-left: -30px; 
+ color: rgb(18, 18, 20);
+}
+.wait2{
+    width: 50px;
+}
+
+.border-radius{
+	border-radius: 14px !important;
+}
+.foot{
+ margin-left: 80%;
+}
+.text{
+    color:#c1c8e4;
+}
+.btn{
+    margin-top: 20px;
+    width: 30%;
+}
+.Secondillustration{
+    height: 450px;
+    width: 100%;
+    border-radius: 14px;
+   background-image: url(/Assets/Images/Illustrations//javascript_illustration.png);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   font-weight: bolder;
+   background-repeat: no-repeat;
+   background-size: 375px;
+   background-position-x: 25px;   
+   background-position-y: 130px;
+ 
+     
+}
+.Secondillustrationtext2{
+    color: var(--backDark-color);
+  
+}
+.form-btn-mb{
+    font-size: 15px;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    position: relative;
+    overflow: hidden;
+    /* line-height: 0px; */
+}
+.form-btn-mb input{
+    position: absolute;
+    opacity: 0;
+}
+.form-btn-mb i{
+    color: black;
+    padding-left: 10px;
+}
+.form-btn-mb:hover i{
+    color: white;
+}
+
+.border-radius{
+    border-radius: 14px;
+}
+.font-color{
+    color: var(--text-color);
+    
+}
+
+.Secondillustration{
+    color: var(--backDark-color);
+    }
+
+
+    .Secondillustration2{
+        height: 450px;
+        width: 100%;
+        border-radius: 14px;
+       background-image: url(/Assets/Images/Illustrations//browser_icons_3.png);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       font-size: 50px;
+       font-weight: bolder;
+       background-repeat: no-repeat;
+       background-size: 325px;
+       background-position-x: 25px;   
+       background-position-y: 40px;
+     
+         
+    }
+    @media screen and (max-width:720px){
+        .startillustration{
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            
+        }
+        .Secondillustrationtext{
+            font-size: 20px;
+            margin-top: 120px !important;
+
+        }
+        .Secondillustration{
+            background-size: 200px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+           
+        }
+        .Secondillustrationtext2{
+            font-size: 30px;
+            margin-top: 120px !important;
+            margin-left: 40px !important;
+    
+        }
+        
+        .Secondillustration2{
+            background-size: 200px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+           
+        }
+    }
+    
+
+
+
+        

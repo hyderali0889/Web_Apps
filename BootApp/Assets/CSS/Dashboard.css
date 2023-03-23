@@ -1,0 +1,61 @@
+:root {
+	--sidebar-color: #17252a;
+	--border-color: #2b7a78;
+	--backDark-color: #3aafa9;
+	--backLight-color: #def2f1;
+	--text-color: #d1e8e2;
+}
+
+
+.border-radius{
+    border-radius: 14px;
+}
+.font-color{
+    color: var(--text-color);
+}
+
+th{
+    color: var(--border-color) !important;
+}
+
+.secondtwoillustration{
+    background-image: url(../Images/Illustrations/Recording.png);
+    display: flex;
+   justify-content:center;
+   align-items: flex-end;
+   font-size: 50px;
+   background-repeat: no-repeat;
+   background-size: 380px;
+   background-position-x: 35px;   
+   background-position-y: 85px;
+   height: 450px;
+   width: 100%;
+   border-radius: 14px;
+}
+
+.border-radius-footer{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+@media screen and (max-width:720px) {
+    .startillustration{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        
+    }
+    .startillustrationtext{
+        font-size: 20px;
+    }
+    .Secondillustration{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-position-x: 0px;   
+   background-position-y: 0px;
+    }
+    
+}

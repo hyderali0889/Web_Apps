@@ -1,0 +1,109 @@
+/*.full{
+background-color: blue;
+
+ 
+
+
+   
+}
+.logo{
+    width: 120px;
+}
+.pic1{
+   width: 200px;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.heading{
+    color: white;
+    margin: auto;
+    padding: 50px;
+}
+.para{
+    padding: 50px;
+    margin-top: -100px;
+    color: white;
+} */
+/*Form first css */
+.get{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    padding: 8px 10px;
+    font-size: 15px;
+  
+}
+.get1{
+    width: 76%;
+    height: 100px;
+    border-radius: 10px;
+  
+  
+  
+}
+.btn{
+    border-radius: 10px;
+}
+.wait{
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+.write{
+    max-width: 100%;
+}
+.wait1{
+    display: flex;
+    align-items: center;
+  
+ 
+}
+
+.form-btn-mb{
+    font-size: 15px;
+    background-color: rgb(211, 211, 211);
+    color: black;
+    position: relative;
+    overflow: hidden;
+    /* line-height: 0px; */
+}
+.form-btn-mb input{
+    position: absolute;
+    opacity: 0;
+}
+.form-btn-mb i{
+    color: black;
+    padding-left: 10px;
+}
+.form-btn-mb:hover i{
+    color: white;
+}
+/*Form first css end*/
+/*Form 2nd css start*/
+
+.foot{
+    margin-left: 80%;
+   }
+   .text{
+       color:#c1c8e4;
+   }
+   .btn{
+       margin-top: 20px;
+       width: 30%;
+   }
+   /*Form 2nd css end */
+   /*form 3rd start css*/
+   .wait{
+    margin-top: 10px;
+}
+.muneeb:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+   
+}
+/*form 3rd end css*/
+/*form4 start css*/
+.wait{
+    margin-top: 10px;
+}
+/*form4 end css*/

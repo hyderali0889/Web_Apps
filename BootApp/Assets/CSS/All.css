@@ -1,0 +1,297 @@
+:root {
+	--sidebar-color: #17252a;
+	--border-color: #2b7a78;
+	--backDark-color: #3aafa9;
+	--backLight-color: #def2f1;
+	--text-color: #d1e8e2;
+}
+* {
+	padding: 0;
+	margin:0;
+	box-sizing: border-box;
+}
+body {
+	background-color:#17252a !important;
+	color: var(--text-color);
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+}
+
+.sidebar {
+	border-right: var(--border-color) 1px dashed;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 235px;
+	z-index: 99;
+}
+.sidebarTitle {
+	background: linear-gradient(45deg, #5fe22b, rgb(214, 59, 59), rgb(67, 67, 228), rgb(67, 67, 228));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.link:hover{
+    color: rgb(112, 58, 58);
+
+}
+.sidebarListDiv {
+	height: 400px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: transparent;
+}
+li{
+    list-style-type: none;
+}
+
+.navbarLink {
+	text-decoration: none;
+	color: var(--text-color) !important;
+}
+.heading-color{
+    color: brown !important;
+}
+.btn-main {
+	padding: 7px 40px;
+	border-radius: 14px;
+	border: none;
+	background-image: linear-gradient(45deg, rgb(33, 184, 164), rgb(204, 69, 69));
+	color: var(--text-color);
+}
+
+.btn-main:hover {
+	box-shadow: 0px 0px 10px var(--backLight-color);
+}
+
+.accordion-item {
+	background-color: transparent !important;
+}
+
+.accordion-button {
+	background-color: transparent !important;
+	box-shadow: none !important;
+	color: var(--text-color) !important;
+	font-size: 15px !important;
+}
+.sidebarTexts{
+    display: flex;
+	border-radius: 14px;
+}
+.sideText1{
+    flex:20%;
+
+}
+.sideText2{
+    flex:80%;
+	cursor: pointer;
+}
+
+.secondbuttondown{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+::-webkit-input-placeholder{
+	color:black !important;
+}
+
+@media screen and (max-width: 720px) {
+	.sidebar-mobile {
+		width: 0px;
+	}
+	.hide {
+		display: none;
+		width: 0px;
+	}
+	.show {
+		display: block;
+		width: 230px;
+		background-color: #212529;
+		animation: side 1s;
+	}
+}
+
+@keyframes side {
+	0%{
+		width: 0px;
+	}	
+	100%{
+		width: 230px;
+	}
+}
+
+
+/* Log in */
+.height {
+	height: 80vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.login {
+	position: relative;
+	width: 350px;
+	height: 300px;
+}
+
+.L-head {
+	color: var(--backLight-color);
+}
+
+.blur {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 350px;
+
+	background: rgba(0, 0, 0, 0.1);
+	filter: blur(3px);
+	z-index: -1;
+}
+
+.input-field {
+	position: relative;
+	height: 44px;
+}
+
+label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	color: #d3d3d3;
+	transition: 0.2s all;
+	cursor: text;
+}
+
+input {
+	width: 100%;
+	border: 0;
+	outline: 0;
+	padding: 0.3rem 0;
+	border-bottom: 2px solid #d3d3d3;
+	background: none;
+}
+
+input:focus,
+input:valid {
+	border-color: #00dd22;
+}
+
+input:focus~label,
+input:valid~label {
+	font-size: 14px;
+	top: -24px;
+	color: #00dd22;
+}
+
+.add a {
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+/* sign up */
+
+.res{
+	width: 700px;
+}
+.blur_2 {
+	width: 700px;
+	height: 400px;
+}
+@media screen and (max-width:720px) {
+	.res{
+		width: 300px;
+	}
+	.blur_2 {
+		width: 300px;
+		height: 500px;
+	}
+}
+
+/* Reset */
+.login-r {
+	position: relative;
+	width: 300px;
+}
+
+.input-field-r {
+	position: relative;
+	width: 250px;
+	height: 44px;
+}
+/* chart */
+.elementDiv{
+    width: 100%; 
+	
+	background-color: var(--border-color);
+	animation-duration: 1s;
+	margin-top: 20px;
+	animation-name: openelement;
+	
+}
+.hide1{
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+}
+.elementDivClosed{
+    width: 100%; 
+	
+	background-color: var(--border-color);
+	animation-duration: 1s;
+	animation-name: closeelement;
+	
+}
+.radius{
+	border-radius: 14px;
+}
+@media screen and (max-width:720px) {
+    .startillustration{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        
+    }
+    .startillustrationtext{
+        font-size: 20px;
+    }
+    .Secondillustration{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-position-x: 0px;   
+   background-position-y: 0px;
+    }
+    
+}
+.border-radius{
+    border-radius: 14px;
+}
+.font-color{
+    color: var(--text-color);
+}
+
+@keyframes openelement {
+	0%{
+		height: 0px;
+	}
+	100%{
+		height: 230px;
+	}
+}
+
+@keyframes closeelement {
+	0%{
+		height: 230px;
+	}
+	100%{
+		height: 0px;
+	}
+}

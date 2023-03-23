@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Assets/CSS/All.css">
+    <link rel="stylesheet" href="./Assets/CSS/bootstrap.css">
+    <link rel="stylesheet" href="/Assets/CSS/Elements.css">
+    <link rel="stylesheet" href="./Assets/CSS/models.css">
+    <link rel="stylesheet" href="./Assets/CSS/navbar.css">
+    <link rel="stylesheet" href="./Assets/CSS/button.css">
+    <link rel="stylesheet" href="./Assets/CSS/Alerts.css">
+    <link rel="stylesheet" href="./Assets/CSS/toasts.css">
+</head>
+<body>
+    <div class="container-fluid">
+       <!-- Main Container Starts -->
+    <div class="row">
+       <!-- Main Row Starts -->
+        <div class="col-2 ">
+             <!-- Sidebar starts here -->
+            <div class="sidebar sidebar-mobile bg-dark">
+                <!-- SideBar Content Starts -->               
+                  <div class="sidebarContent hide">
+                      <div class="sidebarTitle pt-2 pb-2 d-flex d-md-block justify-content-between">
+                        <p class="fw-bold fs-2  text-center ms-4"> Boom </p>
+                        <i class="far fa-times-circle d-md-none me-4 mt-2 fs-2 closeSidebar">  </i>
+                      </div>
+                      <!-- Search bar starts -->
+                      <div class="sidebarSearch ms-2 me-2 ">
+                          <input type="search" name="" class="form-control w-100" placeholder="Search"  id="">
+                      </div>
+                      <!-- Search bar ends -->
+
+                       <!-- Nav List Starts Here -->
+                      <div class="sidebarListDiv mt-3 p-2 ">
+                         <ul class="sidebarList pt-2">
+                             <li class="pb-4 ">                                
+                               <a href="/index.html" class="link sidebarTexts"> 
+                                <span class="sideText1"> <i class="fas fa-home"> </i> </span> <span class="sideText2"> Dashboard</span> </a>
+                             </li>
+                             <li class="pb-2 ">
+
+                              <p class="link  sidebarTexts elementDrop"> <span class="sideText1"> <i class="fas fa-code"></i>
+                                </span> <span class="sideText2"> <a class="link" href="./Elements.html"> Elements </a> <div class="border-radius OpenDiv">
+                                  <div class="hide1 d-none">
+                                 <a href="#" class="link alerts p-2"> Alerts  </a>
+                                 <a href="#" class="link button p-2"> Buttons  </a>
+                                 <a href="#" class="link modals p-2"> Modals  </a>
+                                 <a href="#" class="link navbar p-2"> Navbar  </a>
+                                 <a href="#" class="link toasts p-2"> Toasts  </a>
+                                </div>
+                                </div> </span>
+                              </p>
+              
+                            </li>
+                             <li class="pb-4 ">
+                                 
+                                <a href="/Forms.html" class="link sidebarTexts"> <span class="sideText1"> <i class="far fa-folder-open"> </i> </span>  <span class="sideText2">Forms </span> </a>
+                             </li>
+                             <li class="pb-4 ">
+                                 
+                                <a href="/Tables.html" class="link sidebarTexts">   <span class="sideText1"> <i class="fas fa-table"></i> </span> <span class="sideText2"> Tables </span> </a>
+                             </li>
+                             <li class="pb-4 ">
+                                 
+                                <a href="/Charts.html" class="link sidebarTexts">   <span class="sideText1"> <i class="fas fa-chart-line"></i> </span> <span class="sideText2">Charts </span> </a>
+                             </li>
+                             <li class="pb-4 ">
+                                 
+                                <a href="/Profile.html" class="link sidebarTexts">  <span class="sideText1"> <i class="far fa-user"></i> </span> <span class="sideText2"> Profile </span> </a>
+                             </li>
+                             <li class="pb-4 ">
+                                 
+                                <a href="/Tasks.html" class="link sidebarTexts">  <span class="sideText1"> <i class="fas fa-tasks"></i> </span> <span class="sideText2"> Tasks </span> </a>
+                             </li>
+                             <li>
+                                 
+                                <a href="/ChatBot.html" class="link sidebarTexts">  <span class="sideText1" > <i class="fas fa-robot"></i> </span><span class="sideText2"> Chat Bot </span> </a>
+                             </li>
+                         </ul>                       
+                      </div>
+                      <!-- Nav List ends Here -->
+
+                        <!-- Sign in Sing up Buttons here -->
+                        <div class="text-center">
+                          <button class="btn-main btn-sm ">
+                            <a class="link" href="./Profile.html"> Sign In </a>
+                          </button>
+                          <div class="ms-2 mt-1 text-secondary">
+                            ------- OR -------
+                          </div>
+                          <div class="secondbuttondown ">
+                            <button class="btn-main btn-sm">
+                              <a class="link" href="./Profile.html"> Sign Up</a>
+                            </button>
+                          </div>
+                        </div>
+                     <!-- Sign in Sing up Buttons here -->
+                  </div>
+                  <!-- Sidebar Content Ends Here -->
+            </div>
+            <!-- Sidebar Ends Here -->
+        </div>
+        <!-- Col-2 Ends Here -->
+
+        <!-- Col-10 Starts here -->
+        <div class="col-md-10 col-12">
+           <!-- Navbar starts here -->
+           <div class="NavbarMain mt-2">
+            <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+                <div class="container-fluid d-flex justify-content-between">
+                    <div>  <span><i class="fas fa-bars d-md-none openSideBar text-light"></i></span>
+                        <a class="navbar-brand navbarLink ms-2 ms-md-0" href="/index.html">Dashboard</a> </div>
+                   
+                  <button class="btn-main"> <a href="#" class="link"> Log Out </a> </button>
+                 
+                </div>
+              </nav>
+           </div>
+           <!-- NavBar ends Here -->
+
+            <!-- Starts Coding Here -->
+             <div class="buttons">
+               <div class="menu1">
+                  <div class=" menu mt-5">
+                  <button type="button" class="btn btn-primary">Primary</button>
+              <button type="button" class="btn btn-secondary">Secondary</button>
+              <button type="button" class="btn btn-success">Success</button>
+              <button type="button" class="btn btn-danger">Danger</button>
+              <button type="button" class="btn btn-warning">Warning</button>
+              <button type="button" class="btn btn-info">Info</button>
+              <button type="button" class="btn btn-light">Light</button>
+              <button type="button" class="btn btn-dark">Dark</button>
+              </div>
+              
+              <div class="bb">
+                <h3 class="display-6 text-primary">
+                    Buttons
+                </h3>
+                  <p>
+              &lt;button type="button" class="btn btn-primary">Primary&gt;/button> <br />
+              &lt;button type="button" class="btn btn-secondary">Secondary&gt;/button> <br />
+              &lt;button type="button" class="btn btn-success">Success&gt;/button> <br />
+              &lt;button type="button" class="btn btn-danger">Danger&gt;/button> <br />
+              &lt;button type="button" class="btn btn-warning">Warning&gt;/button> <br />
+              &lt;button type="button" class="btn btn-info">Info&gt;/button> <br />
+              &lt;button type="button" class="btn btn-light">Light&gt;/button> <br />
+              &lt;button type="button" class="btn btn-dark">Dark&gt;/button> <br />
+              
+              &lt;button type="button" class="btn btn-link">Link&gt;/button>
+                  </p>
+              </div>
+              
+              <div class="menu mt-5">
+              <button type="button" class="btn btn-outline-primary">Primary</button>
+              <button type="button" class="btn btn-outline-secondary">Secondary</button>
+              <button type="button" class="btn btn-outline-success">Success</button>
+              <button type="button" class="btn btn-outline-danger">Danger</button>
+              <button type="button" class="btn btn-outline-warning">Warning</button>
+              <button type="button" class="btn btn-outline-info">Info</button>
+              <button type="button" class="btn btn-outline-light">Light</button>
+              <button type="button" class="btn btn-outline-dark">Dark</button>
+              </div>
+              <div class="bb">
+                  <h3 class="display-6 text-primary">
+                     Outline-Buttons
+                  </h3>
+                  <p>
+                  &lt;button type="button" class="btn btn-outline-primary">Primary&gt;/button> <br />
+              &lt;button type="button" class="btn btn-outline-secondary">Secondary&gt;/button><br />
+              &lt;button type="button" class="btn btn-outline-success">Success&gt;/button><br />
+              &lt;button type="button" class="btn btn-outline-danger">Danger&gt;/button><br />
+              &lt;button type="button" class="btn btn-outline-warning">Warning&gt;/button><br />
+              &lt;button type="button" class="btn btn-outline-info">Info&gt;/button><br />
+              &lt;button type="button" class="btn btn-outline-light">Light&gt;/button><br />
+              &lt;button type="button" class="btn btn-outline-dark">Dark&gt;/button>
+              </p> 
+              </div>
+              </div>
+              <div class="menu1">
+              <div class="container">
+                
+              <div class=" buttonmain block">
+                  <button class="btn btn-primary w-75 mb-3" type="button">Button</button>
+                  <button class="btn btn-primary w-75" type="button">Button</button>
+                </div>
+              
+              </div>
+                <div class="bb">
+                  <h3 class="display-6 text-primary">
+                      Block-Buttons
+                   </h3>
+                  <div class="d-grid gap-2">
+                      &lt;button class="btn btn-primary" type="button">Button&gt;/button> <br />
+                      &lt;button class="btn btn-primary" type="button">Button&gt;/button> <br />
+                    </div>
+                </div>
+              </div>
+             </div>
+
+             <!-- buttons Ends Here -->
+             <div class="alerts2">
+               <div class="get1">
+                  <div class="alert alert-primary w-75" role="alert">
+                          A simple primary alert—check it out!
+                  </div>
+                    <div class="alert alert-secondary w-75" role="alert">
+                      A simple secondary alert—check it out!
+                    </div>
+                    <div class="alert alert-success w-75" role="alert">
+                      A simple success alert—check it out!
+                    </div>
+                    <div class="alert alert-danger w-75" role="alert">
+                      A simple danger alert—check it out!
+                    </div>
+                    <div class="alert alert-warning w-75" role="alert">
+                      A simple warning alert—check it out!
+                    </div>
+                    <div class="alert alert-info w-75" role="alert">
+                      A simple info alert—check it out!
+                    </div>
+                    </div>
+                    <div class="ma">
+                    <div class="got">
+                   <p>
+                    <h2>
+                      Alerts Coding Here!
+                    </h2>
+                    &lt;div class="alert alert-primary" role="alert">
+                      A simple primary alert—check it out!
+                    &gt;/div><br />
+                    &lt;div class="alert alert-secondary" role="alert">
+                      A simple secondary alert—check it out!
+                    &gt;/div><br />
+                    &lt;div class="alert alert-success" role="alert">
+                      A simple success alert—check it out!
+                    &gt;/div><br />
+                    &lt;div class="alert alert-danger" role="alert">
+                      A simple danger alert—check it out!
+                    &gt;/div><br />
+                    &lt;div class="alert alert-warning" role="alert">
+                      A simple warning alert—check it out!
+                    &gt;/div><br />
+                    
+                   </p>
+                    </div>
+                  </div>
+                 
+          <div class="get2">
+              <div id="liveAlertPlaceholder"></div>
+              <button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+            </div>
+            <div class="ma2">
+              <div class="get3"> 
+            <p>
+              <h2>
+                Live Alert coding Here
+              </h2>
+              
+              &lt;div id="liveAlertPlaceholder">&gt;/div><br>
+              &lt;button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert&gt;/button>
+            </p>
+          
+          </div>
+          </div>
+          
+          <div class="get4">
+            <div class="alert alert-success w-75" role="alert">
+              <h4 class="alert-heading">Well done!</h4>
+              <p>Aww yeah, you successfully read this important alert message. This example text is going to run a bit longer so that you can see how spacing within an alert works with this kind of content.</p>
+              <hr>
+              <p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.</p>
+            </div>
+          </div>
+          <div class="ma3">
+          <div class="get5">
+            <p>
+              <h2>
+                Additional Content Coding
+              </h2>
+              &lt;div class="alert alert-success" role="alert"><br>
+                &lt;h4 class="alert-heading">Well done!&gt;/h4><br>
+                &lt;p>Aww yeah, you successfully read this important alert message.<br>
+                 This example text is going to run a bit longer so that you can see how spacing within an alert works<br> with this kind of content.&gt;/p><br
+                &lt;hr>
+                &lt;p class="mb-0">Whenever you need to, be sure to use margin utilities to keep things nice and tidy.&gt;/p>
+              </div>
+            </p>
+          </div>
+             </div>
+
+             <!-- Alerts End Here -->
+
+             <div class="modals2">
+               <div class="get">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                  </button>
+                  
+                  <!-- Modal -->
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          ...
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="ma">
+              <div class="get2">
+              <p>
+                <h2>
+                  Launch Demo Model Coding
+                </h2>
+                <!-- Button trigger modal -->
+              &lt;button type="button" class="btn btn-primary"<br> data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Launch demo modal
+              &gt;/button>
+              
+              <!-- Modal -->
+              &lt;div class="modal fade"<br> id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              &lt;div class="modal-dialog"><br>
+              &lt;div class="modal-content"><br>
+              &lt;div class="modal-header"><br>
+              &lt;h5 class="modal-title" id="exampleModalLabel">Modal title&gt;/h5><br>
+              &lt;button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">&gt;/button><br>
+              &gt;/div>
+                    &lt;div class="modal-body"><br>
+                      ...
+                      &gt;/div>
+                    &lt;div class="modal-footer"><br>
+                      &lt;button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close&gt;/button><br>
+                      &lt;button type="button" class="btn btn-primary">Save changes&gt;/button><br>
+                      &gt;/div><br>
+                  &gt;/div><br>
+                  &gt;/div>
+                  &gt;/div>
+              </p>
+              </div>
+              </div>
+              <div class="get3">
+                <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel">Modal 1</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Show a second modal and hide this one with the button below.
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Open second modal</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                  <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Hide this modal and show the first with the button below.
+                      </div>
+                      <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a class="btn btn-primary" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Open first modal</a>
+                <div class="ma2">
+                  <div class="get4">
+                    <p>
+                    <h2>
+                      Toggel Between Models
+                    </h2>
+                    &lt;div class="modal fade" id="ex<br>ampleModalToggle2" aria-hidden="true"<br> aria-labelledby="exampleModalToggleLabel2" tabindex="-1"><br>
+                    &lt;  div class="modal fade" id="exampleModalToggle" aria-hidden="true"<br> aria-labelledby="exampleModalToggleLabel" tabindex="-1"><br>
+                    &lt;div class="modal-dialog modal-dialog-centered"><br>
+                    &lt;div class="modal fade" id="ex<br>ampleModalToggle2"<br><br> aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1"><br>
+                    &lt;div class="modal fade" id="ex<br>ampleModalToggle2" <br>aria-hidden="true" aria-labelledby="<br>exampleModalToggleLabel2" tabindex="-1">
+                    &lt;div class="modal-content">
+                    &lt;div class="modal-header">      <br>&lt;button type="button"<br> class="btn-close"<br> data-bs-dismiss="modal" aria-label="Close"></button>
+              
+                    
+                </p> 
+              </div>
+              
+              </div> 
+             </div>
+            </div>
+             <!-- modals end here -->
+<div class="navbar2">
+             <div class="navbar d-flex justify-content-center">
+               <div class="menu1">
+                  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                      <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                          <ul class="navbar-nav">
+                            <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Contact us</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                              </a>
+                           
+                        </div>
+                      </div>
+                    </nav>
+            
+                <div class="nav1">
+                <p>
+                  &lt;nav class="navbar navbar-expand-lg navbar-light bg-light"><br>
+                      &lt;div class="container-fluid"><br>
+                        &lt;a class="navbar-brand" href="#">Navbar&gt;/a><br>
+                        &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" <br>data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"<br> aria-expanded="false" aria-label="Toggle navigation"><br>
+                          &lt;span class="navbar-toggler-icon">&gt;/span><br>
+                        &gt;/button>
+                        &lt;div class="collapse navbar-collapse" id="navbarNavDropdown"><br>
+                          &lt;ul class="navbar-nav"><br>
+                            &lt;li class="nav-item"><br>
+                              &lt;a class="nav-link active" aria-current="page" href="#">Home</a><br>
+                            &gt;/li><br>
+                            &lt;li class="nav-item"><br>
+                              &lt;a class="nav-link" href="#">About us&gt;/a><br>
+                            &gt;/li><br>
+                            &lt;li class="nav-item"><br>
+                              &lt;a class="nav-link" href="#">Contact us&gt;/a><br>
+                          &gt;</li><br>
+                    
+                    &gt;/nav>
+                  </div>
+              
+          </p>
+          
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar scroll</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                  <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Link
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled">Link</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          
+          <div class=" nav1">
+          &lt;nav class="navbar navbar-expand-lg navbar-light bg-light"><br>
+              &lt;div class="container-fluid"><br>
+                &lt;a class="navbar-brand" href="#">Navbar scroll&gt;/a><br>
+                &lt;button class="navbar-toggler" type="button" data-bs-toggle="collapse" <br>data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" <br>aria-label="Toggle navigation"><br>
+                  &lt;span class="navbar-toggler-icon">&gt;/span><br>
+                </button>
+                &lt;div class="collapse navbar-collapse" id="navbarScroll"><br>
+                  &lt;ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" <br>style="--bs-scroll-height: 100px;"><br>
+           
+                 
+          </div>
+          </div>
+             </div>
+            </div>
+             <!-- Navbar Ends here -->
+             <div class="toasts2">
+               <div class="get1">
+                  <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+            
+                <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <img src="..." class="rounded me-2" alt="...">
+                      <strong class="me-auto">Bootstrap</strong>
+                      <small>11 mins ago</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                      Hello, world! This is a toast message.
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="ma">
+                <div class="got" >
+                <p>
+                    <h2>
+                        Live Toast Coading Here
+                    </h2>
+                    &lt;button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast&gt;/button><br>
+            
+                    &lt;div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11"><br>
+                    &lt;div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"><br>
+                    &lt;div class="toast-header"><br>
+                    &lt;img src="..." class="rounded me-2" alt="..."><br>
+                    &lt;strong class="me-auto">Bootstrap&gt;/strong><br><br>
+                    &lt;small>11 mins ago&gt;/small><br><br>
+                    &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">&gt;/button>
+                    &gt;/div><br>
+                &lt;div class="toast-body">
+                  Hello, world! This is a toast message.
+                  &gt;/div><br>
+                &gt;/div>
+            &gt;/div>
+                </p>
+                </div>
+            </div>
+            <div class="get2">
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+            
+                <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+                  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                      <img src="..." class="rounded me-2" alt="...">
+                      <strong class="me-auto">Bootstrap</strong>
+                      <small>11 mins ago</small>
+                      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                      Hello, world! This is a toast message.
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="ma2">
+                <div class="got2" >
+                <p>
+                    <h2>
+                        Live Toast Coading Here
+                    </h2>
+                    &lt;button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast&gt;/button><br>
+            
+                    &lt;div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11"><br>
+                    &lt;div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true"><br>
+                    &lt;div class="toast-header"><br>
+                    &lt;img src="..." class="rounded me-2" alt="..."><br>
+                    &lt;strong class="me-auto">Bootstrap&gt;/strong><br><br>
+                    &lt;small>11 mins ago&gt;/small><br><br>
+                    &lt;button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close">&gt;/button>
+                    &gt;/div><br>
+                &lt;div class="toast-body">
+                  Hello, world! This is a toast message.
+                  &gt;/div><br>
+                &gt;/div>
+            &gt;/div>
+                </p>
+                </div>
+            </div>
+             </div>
+         
+         <!-- Footer starts here -->
+        <footer class="font-color ms-2 mt-3 p-4 text-center bg-dark border-radius-footer fs-6">
+         <div class="footerillustration"></div>
+         This Website is made for development purposes and is not allowed to copy or replicate without the permission
+         of the developers and the owners. All the copyrights are reserved and owned by alll the libraries that are use
+         to create these charts and table <span class="text-danger"> ❤❤❤❤ </span>
+       </footer>
+
+       <!-- footer Ends Here -->
+             
+                 </div>
+      <!-- Vertically centered modal -->
+      
+   </div>
+   
+        <!-- Col-10 Ennds here -->
+    </div>
+    <!-- Main Row Ends Here -->
+ 
+    </div>
+      
+    <!-- main Container Ends Here -->
+
+    <!-- Script tags here -->
+    <script src="./Assets/JS/All.js" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

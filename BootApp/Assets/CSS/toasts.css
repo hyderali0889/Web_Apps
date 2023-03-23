@@ -1,0 +1,50 @@
+:root {
+	--sidebar-color: #17252a;
+	--border-color: #2b7a78;
+	--backDark-color: #3aafa9;
+	--backLight-color: #def2f1;
+	--text-color: #d1e8e2;
+}
+.get1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+}
+.got{
+    background-color :var(--sidebar-color);
+   color:var(--text-color);
+   border-radius: 14px;
+   padding: 50px;
+   
+   }
+   
+   .ma{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   
+.get2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+}
+.got2{
+    background-color :var(--sidebar-color);
+   color:var(--text-color);
+   border-radius: 14px;
+   padding: 50px;
+   
+   }
+   
+   .ma2{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }

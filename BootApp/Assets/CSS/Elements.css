@@ -1,0 +1,52 @@
+:root {
+	--sidebar-color: #17252a;
+	--border-color: #2b7a78;
+	--backDark-color: #3aafa9;
+	--backLight-color: #def2f1;
+	--text-color: #d1e8e2;
+}
+
+.Secondillustration{
+    height: 450px;
+    width: 100%;
+    border-radius: 14px;
+   background-image: url(/Assets/Images/Illustrations/notification_illustration12.png);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 50px;
+   font-weight: bolder;
+   background-repeat: no-repeat;
+   background-size: 250px;
+     
+}
+.Secondillustrationtext{
+   color: var(--backDark-color);
+}
+.border-radius{
+    border-radius: 12px;
+}
+
+.inp{
+    border: none;
+    overflow: hidden;
+}
+.font-color{
+  color: var(--text-color);
+}
+
+
+@media screen and (max-width:720px) {
+
+    .Secondillustrationtext{
+        font-size: 20px;
+    }
+    .Secondillustration{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        background-position-x: 0px;   
+   background-position-y: 0px;
+    }
+    
+}

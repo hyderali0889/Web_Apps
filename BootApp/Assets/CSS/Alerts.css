@@ -1,0 +1,82 @@
+:root {
+	--sidebar-color: #17252a;
+	--border-color: #2b7a78;
+	--backDark-color: #3aafa9;
+	--backLight-color: #def2f1;
+	--text-color: #d1e8e2;
+}
+
+.got{
+ background-color :var(--sidebar-color);
+color:var(--text-color);
+border-radius: 14px;
+padding: 50px;
+
+}
+
+.ma{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.get1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.get2{ 
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+}
+.get3{
+    
+    
+
+    
+ background-color :var(--sidebar-color);
+ color:var(--text-color);
+ border-radius: 14px;
+ padding: 50px;
+
+}
+.get{ 
+    padding: 15px;
+}
+.ma2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px;
+}
+.get4{
+    
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ma3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 12px;
+}
+.get5{
+    
+ background-color :var(--sidebar-color);
+ color:var(--text-color);
+ border-radius: 14px;
+ padding: 50px;
+}

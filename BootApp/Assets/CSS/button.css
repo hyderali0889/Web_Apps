@@ -1,0 +1,26 @@
+.bb{
+    background-color: rgb(141, 141, 141);  
+    margin: 20px;
+    padding: 40px;
+    color: blanchedalmond;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.menu{
+    margin-left: 20px;
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.buttonmain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+}

@@ -1,0 +1,86 @@
+:root {
+	--sidebar-color: #17252a;
+	--border-color: #2b7a78;
+	--backDark-color: #3aafa9;
+	--backLight-color: #def2f1;
+	--text-color: #d1e8e2;
+}
+
+
+.border-radius{
+    border-radius: 14px !important;
+}
+.font-color{
+    color: var(--text-color);
+}
+
+.firschatbotbox{
+    height:450px ;
+    width: 100%;
+    background: url(/Assets/Images/Illustrations/waitng-illustration.svg);
+    font-size: 50px;
+    font-weight: bolder;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--border-color);
+    background-position-x: 45px;
+    background-position-y: 65px;
+}
+.mainchat{
+    height: 650px;
+    width: 100%;
+
+    
+}
+.innerchat{
+    height: 580px;
+    width: 100%;
+    background-color: var(--text-color);
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.border-radius-footer{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+.chattingarea{
+    border: 1px solid black ;
+    
+}
+.q1set{
+margin-top: 40px !important;
+
+}
+.q2set{
+    margin-top: 40px !important;
+}
+.q3set{
+    margin-top: 40px !important;
+
+}
+.q4set{
+    margin-top: 40px !important;
+}
+
+
+
+
+@media screen and (max-width:720px) {
+    .firschatbotbox{
+        display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-position-x:0px;
+    background-position-y: 40px;
+   font-size: 35px;
+    }
+
+
+}
+
